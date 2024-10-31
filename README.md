@@ -2,7 +2,7 @@
 
 By Single Code 
 
-Team Member : NUR ARINI FATIHAH BINTI MODH SABIR
+Team Member : NUR ARINI FATIHAH BINTI MOHD SABIR
 
 Nutri Link is a mobile application built with Flutter to address the United Nations Sustainable Development Goal of Zero Hunger. This app facilitates the connection between **Donors** and **Needy Organizations** by creating a portal where both parties can promote themselves, communicate, and make impactful contributions toward reducing hunger in communities.
 
