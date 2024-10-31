@@ -42,13 +42,8 @@ To set up the project locally, follow these steps:
    ```bash
    flutter pub get
    ```
-
-4. **Set Up Firebase**:
-   - [Create a Firebase project](https://firebase.google.com/), and add an Android app to your project.
-   - Download the `google-services.json` file from Firebase Console and place it in the `android/app` directory.
-   - Update Firebase settings in `android/build.gradle` and `android/app/build.gradle` according to the project setup requirements.
-
-5. **Run the App**:
+   
+4. **Run the App**:
    To test on Chrome (web):
    ```bash
    flutter run -d chrome
@@ -64,9 +59,6 @@ To set up the project locally, follow these steps:
 
 The following dependencies are used in the Nutri Link app:
 
-- **Firebase Core**: For connecting to Firebase and managing backend services.
-- **Firebase Auth**: For authenticating users (e.g., donors and needy organizations).
-- **Cloud Firestore**: For storing and retrieving data related to donations and needs.
 - **Provider**: For state management throughout the app.
 - **Flutter SDK**: The core framework used to build this cross-platform app.
 
@@ -79,15 +71,21 @@ You can find these in the `pubspec.yaml` file.
 Once the app is running, follow these steps to use Nutri Link:
 
 1. **Donor Portal**:
-   - Go to the Donor portal to see a list of organizations in need.
-   - View individual organization profiles and find contact details to make a donation or offer help.
+   - Go to the Donor portal and tap on 'Reach The Needed" to see a list of Personal user, Food Bank or Community Kitchen in need.
+   - View their details and find contact details to make a donation or offer help.
+     
+   - Go to the Donor portal and tap on 'Be The Donor" and tap on Organisation, Restaurant or Personal button to fill the form details.
+   - Your Details will appear on Needed portal at the "Reach The Donor" part. (not function yet, only show dummy data)
 
 2. **Needed Portal**:
-   - Organizations or individuals in need can create a profile under the Needed portal.
-   - Post your requirements to attract potential donors who want to contribute to zero hunger.
+   - Go to the Needed portal and tap on 'Reach The Donor" to see a list of Personal user, Organisation or Restaurant that got food surplus to donate.
+   - View their details and find contact details to ask a donation or ask for help.
+  
+   - Go to the Needed portal and tap on 'Let The Donor Reach You" and tap on Food Bank, Community Kitchen or Personal button to fill the form details.
+   - Your Details will appear on Donor portal at the "Reach The Needed" part. (not function yet, only show dummy data)
 
 3. **Communication**:
-   - Both donors and needy parties can view each other's postings and connect directly, fostering an open and supportive network.
+   - Both donors and needy parties can view each other's details and connect directly, fostering an open and supportive network.
 
 ---
 
@@ -96,9 +94,10 @@ Once the app is running, follow these steps to use Nutri Link:
 Nutri Link was developed as a hackathon project to address SDG Goal #2: Zero Hunger. I believe in the app's potential to make an impact on food scarcity and hunger in our communities.
 
 ---
+## Future Planning
 
-## Note
+Please note that the current version of Nutri Link represents a simplified version due to a database connection issue. Moving forward, I plan to configure the database for user authentication and implement a dashboard to encourage donors. This dashboard will highlight top donors, allowing individuals and businesses, such as restaurants, to showcase their contributions. This feature aims to promote continuous food donations by providing recognition and visibility for top contributors within the community.
 
-Please be advised that due to a persistent database connection error, the current version of Nutri Link does not fully represent the original system. The app design I initially spent three days developing was not able to be completed due to this issue, and what is currently available is a simplified last-minute solution. I decided to submit it  to qualify for the certificate and badge. 
+---
 
-Thank you for your understanding, and I hope the core concept of Nutri Link still conveys its intended purpose!
+Thank you for your understanding, and I hope the core concept of Nutri Link conveys its intended purpose!
