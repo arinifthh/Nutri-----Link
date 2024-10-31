@@ -1,6 +1,6 @@
-# Nutri Link
+# Nutri Link (Zero Hunger Solution)
 
-##H#ACKATHON UMPSA 2024
+### HACKATHON UMPSA 2024
 
 By Single Code 
 
